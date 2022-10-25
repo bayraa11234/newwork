@@ -1,0 +1,29 @@
+
+.inner-image>img{
+    margin: 140px 0 50px 320px;
+    border-radius: 20px;
+}
+.section-left-title{
+    display: flex;
+    align-items: center;
+}
+.section-left-title>img{
+    padding-right: 10px;
+}
+.inner-text{
+    width: 750px;
+    margin: 0 0 100px 590px;
+}
+.inner-title{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: #1D3444;
+    padding: 24px 0 32px 0;
+}
+.inner-paragraph>p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+}
