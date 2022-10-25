@@ -169,8 +169,12 @@ a{
     margin-left: 980px;
 }
 .video-right__img img{transition: 0.3s all;}
-.video-right__img:hover img{transform: scale(1.05,1.05);}
-
+.video-right__img:hover img{
+    transform: scale(1.05,1.05);
+}
+.video-right__img:hover{
+    cursor: pointer;
+}
 .video-right__img::after{
     opacity: 0;
     content: 'Play video →';
@@ -238,6 +242,9 @@ footer{
 }
 .between-text>ul>li{
     padding-top: 15px;
+}
+.between-text>ul>li:hover{
+    color:#F58A07;
 }
 .input-email{
     width: 340px;
